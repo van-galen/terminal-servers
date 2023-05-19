@@ -1,5 +1,6 @@
 ### run as scheduled task
 ### checks and sends disk space summary across nodes, if disk space below 10% threshold deletes profiles to free up space
+### delprof2.exe care of: https://helgeklein.com/free-tools/delprof2-user-profile-deletion-tool/
 
 function delete-inactiveprofiles {
     param ($connectionbroker, $collectionname, $delprofshare, $foldername)
